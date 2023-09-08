@@ -1,6 +1,6 @@
 def my_zip(*iterables, strict = False):
   if len(iterables) == 0:
-     return iterables
+     return 
 
   if strict:
     for i in range(len(iterables) - 1):
