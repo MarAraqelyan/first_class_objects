@@ -1,6 +1,10 @@
 def my_zip(*iterables, strict = False):
   if len(iterables) == 0:
+<<<<<<< HEAD
     return  
+=======
+     return 
+>>>>>>> 0c1552d2d4aeaae3768623c9834c694cf5415c85
 
   if strict:
     for i in range(len(iterables) - 1):
